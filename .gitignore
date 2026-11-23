@@ -1,0 +1,36 @@
+# Build directories
+build/
+build-*/
+bin/
+lib/
+out/
+
+# IDE & Editor files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Compiled binaries & libraries
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.lib
+tools/bin/
+
+# Logs & Dump artifacts
+*.log
+*.dump
+unhandled_apis.json
+trace.jsonl
+scratch/
+savedata/
